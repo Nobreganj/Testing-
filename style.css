@@ -1,0 +1,70 @@
+/* general styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-image: url(https://download.world-television.com/wtvgpe.png);
+  display: flex;
+  ffont-family: 'Poppins', sans-serif;
+}
+
+.container {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+h4 {
+  font-weight: normal;
+  letter-spacing: 0rem;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+  font-size: 0.5rem;
+  list-style-type: none;
+  padding: 1.0rem;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 5vm;
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+  h4 {
+    font-size: 1.6rem;
+  }
+  
+  li {
+    font-size: 0.5rem;
+    padding: .100rem;
+  }
+  
+  li span {
+    font-size: 1.8rem;
+  }
+}
