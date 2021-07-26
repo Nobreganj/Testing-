@@ -4,12 +4,14 @@
         hour = minute * 60,
         day = hour * 24;
 
+  //let birthday = "2021-07-26T14:00:00.000Z";
+  //birthdayUtc = Date.parse(birthday);
+  //nowUtc = Date.parse(new Date().toISOString());
+      //countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
   let birthday = "2021-07-26T14:00:00.000Z";
   birthdayUtc = Date.parse(birthday);
   nowUtc = Date.parse(new Date().toISOString());
-      //countDown = new Date(birthday).getTime(),
-      x = setInterval(function() {    
-
         //let now = new Date().getTime(),
             distance = birthdayUtc - nowUtc;
         document.getElementById("days").innerText = Math.floor(distance / (day)),
