@@ -9,7 +9,7 @@
   //nowUtc = Date.parse(new Date().toISOString());
       //countDown = new Date(birthday).getTime(),
       x = setInterval(function() {    
-  let birthday = "2021-07-26T15:20:00.000Z";
+  let birthday = "2021-08-10T15:07:00.000Z";
   birthdayUtc = Date.parse(birthday);
   nowUtc = Date.parse(new Date().toISOString());
         //let now = new Date().getTime(),
